@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Facebook login--page</title>
+    <style>
+      
+      *{
+	    margin: 0;
+	    padding: 0;
+	    outline: 0;
+	    text-decoration: none;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        }
+body
+{
+    font-size: 14px;
+    color: #1c1e21;
+    font-weight: normal;
+    background: #f0f2f5;
+    height: 90vh;
+    width: 100vw;
+}
+
+.loginup
+{
+    padding: 120px;
+    height: 70vh;
+    width: 100vw;
+}
+.container
+{
+    max-width: 992px;
+    margin: auto;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content-between
+{
+    justify-content: space-between;
+    
+}
+.content-left
+{
+   max-width: 500px;
+   margin: auto;
+}
+.content-left h1
+{
+    font-size: 40px;
+    color: #1877f2;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-shadow:  -3px 3px 4px rgb(255,255,255),
+    3px 3px 4px rgba(230,230,230,0.96);
+}
+.content-left h2
+{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.content-right
+{
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+}
+.content-right form
+{
+    width: 396px;
+    height: 360px;
+    box-shadow: 
+    -5px -5px 10px rgb(255,255,255),
+    5px 5px 10px rgba(230,230,230,0.96);
+    padding: 16px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background: #f8f8f8;
+}
+.content-right form input
+{
+    width: 100%;
+    height: 52px;
+    background: #f8f8f8;
+    padding: 0 15px;
+    font-size: 17px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    margin-bottom: 15px;
+
+}
+::placeholder
+{
+    color: #9094b6;
+}
+.content-right form input:focus
+{
+    border: 1px solid #1877f2;
+    box-shadow: 0 0px 2px #1877f2;
+}
+.btn
+{
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background: #1877f2;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    box-shadow: 
+    -5px -5px 10px rgb(255,255,255),
+    5px 5px 10px rgba(230,230,230,0.96);
+    font-weight: 500;
+}
+.login a
+{
+    display: block;
+}
+.create-btn a
+{
+    display: inline-block;
+    padding: 0 17px;
+    background: #4cd137;
+    transition: .3s;
+}
+.create-btn a:hover
+{
+    background: #44bd32;
+}
+.login .btn:active
+{
+    background-color: #f8f8f8;
+    color: #1877f2;
+}
+.forget a
+{
+    font-size: 14px;
+    line-height: 19px;
+    color: #1877f2;
+}
+.forget a:hover,
+.content-right p a:hover
+{
+    text-decoration: underline;
+}
+.content-right p a
+{
+    color: #1c1e21;
+    font-weight: 600;
+}
+.line
+{
+    align-items: center;
+    border-bottom: 1px solid #dadbe1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+footer{
+    margin: 228px 0px 10px ;
+    height: 30vh;
+    text-align:center;
+    
+    background-color: #f8f8f8;
+}
+footer ul a{
+    text-align: justify;
+    color: gray;
+    margin: 30px 10px 30px 0px;
+  line-height: 10px;
+}
+
+footer ul .line{
+    color: grey;
+    text-align: center;
+    margin: 10px 12px 10px;
+  height: 1.5px;
+  width: 100%;
+}
+footer p {
+  margin: 20px 0px 40px 0px;
+}
+.animation{
+    margin-top: 100px;
+    text-align: center;
+    color: #1877f2;
+    font-size: x-large;
+    font-size: 40px;
+    text-shadow:  -3px 3px 4px rgb(255,255,255),
+    3px 3px 4px rgba(230,230,230,0.96);
+    font-weight: 650;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="loginup">
+        <div class="container">
+        <div class="row justify-content-between">
+            <div class="content-left">
+                <h1>facebook</h1>
+                <h2>Facebook helps you connect and share with the people in your life.</h2>
+            </div>
+            <div class="content-right">
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" placeholder="Email address or phone number">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password">
+                    
+                    </div>
+
+                    <div class="login">
+                         <a href="" class="btn">Log in</a>
+                    </div>
+                    <div class="forget">
+                        <a href=""></a>Forgotten account?</a>
+                   </div>
+                   <div class="line"></div>
+                    <div class="create-btn">
+                        <a href="" class="btn">Create new account </a>
+                   </div>
+                   
+                </form>
+                <p><a href="">Create a page</a> for a celebrity, brand or business.</p>
+            </div>
+        </div>
+        </div>
+
+
+      
+
+        
+
+
+
+
+    </div>
+    <footer>
+        <div class="footer">
+            <ul>
+            
+                <a href="http://"> English (UK)</a>   <a href="http://">हिन्दी</a>   <a href="http://"> ਪੰਜਾਬੀ </a>   <a href="http://">বাংলা</a>   <a href="http://">ગુજરાતી</a>   <a href="http://">मराठी</a>   <a href="http://">தமிழ்</a>   <a href="http://">తెలుగు</a>
+                <a href="http://">മലയാളം</a>   <a href="http://">ಕನ್ನಡ</a>  <button>+</button>
+                <div class="line"></div>
+                <a href="http://"> Sign Up</a>   <a href="http://">Log In</a>  <a href="http://">Messenger</a>  <a href="http://">Facebook Lite</a>  <a href="http://">Watch</a>  <a href="http://">Places</a>  <a href="http://">Games</a>   <a href="http://">Marketplace</a>  <a href="http://">FacebookPay</a> <a href="http://">Oculus</a> <a href="http://">Portal</a>  <a href="http://">Instagram</a>  <a href="http://">BulletinLocal</a>   <a href="http://">Fundraisers</a>  <a href="http://">Services Voting</a>
+                <a href="http://">Information center</a>  <a href="http://">Page</a>  <a href="http://">Developers</a>   <a href="http://">Careers</a>  <a href="http://">Privacy</a>  <a href="http://">Cookies Ad</a> <a href="http://">Choices</a>  <a href="http://">Terms</a>  <a href="http://">Help</a> <a href="http://">Settings</a>
+            </ul>
+        </div>
+      
+        <p>Meta © 2022</p>
+
+        <div class="animation">
+            <p>Welcome to Metaverse.</p>
+        </div>
+        <div class="tenor-gif-embed" data-postid="24104221" data-share-method="host" data-aspect-ratio="2.5" data-width="100%"><a href="https://tenor.com/view/meta-vr-facebook-gif-24104221">Meta Vr GIF</a>from <a href="https://tenor.com/search/meta-gifs">Meta GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+    </footer>
+    
+</body>
+</html>
